@@ -7,12 +7,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    Unity.CollabProxy.Editor.dll:
-    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -53,21 +49,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 12372}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12204}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 14766}
+      Script: {instanceID: 14550}
     - Class: 114
-      Script: {instanceID: 15426}
+      Script: {instanceID: 15214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -102,27 +98,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 12372}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12204}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 14302}
+      Script: {instanceID: 14086}
     - Class: 114
-      Script: {instanceID: 14660}
+      Script: {instanceID: 14444}
     - Class: 114
-      Script: {instanceID: 14766}
+      Script: {instanceID: 14550}
     - Class: 114
-      Script: {instanceID: 15426}
+      Script: {instanceID: 14720}
     - Class: 114
-      Script: {instanceID: 17496}
+      Script: {instanceID: 15214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -159,33 +155,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 12372}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12204}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 12980}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 14302}
+      Script: {instanceID: 14086}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14108}
     - Class: 114
-      Script: {instanceID: 14660}
+      Script: {instanceID: 14444}
     - Class: 114
-      Script: {instanceID: 14766}
+      Script: {instanceID: 14550}
     - Class: 114
-      Script: {instanceID: 15072}
+      Script: {instanceID: 14862}
     - Class: 114
-      Script: {instanceID: 15250}
+      Script: {instanceID: 15038}
     - Class: 114
-      Script: {instanceID: 15426}
+      Script: {instanceID: 15214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -715,7 +711,7 @@ ScriptsOnlyBuild:
     className: Benchmark04
   - hash:
       serializedVersion: 2
-      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
@@ -737,6 +733,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 26a4b484500947ce0724e9d2db509c29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NumberWizard
   - hash:
       serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
@@ -847,7 +849,7 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: c60c5cba0d5ed4f4a018240d6339217f
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
@@ -893,15 +895,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 26a4b484500947ce0724e9d2db509c29
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NumberWizard
   platform: 5
   scenePathNames:
   - Assets/Scenes/Start Menu.unity
   - Assets/Scenes/InGame.unity
   - Assets/Scenes/End Drop.unity
-  playerPath: C:/Users/habib/OneDrive/NWUI/Number Wizard UI.exe
+  playerPath: C:/Users/habib/Git Repos/number-widzard/Downloadables/Number Wizard
+    UI.exe
